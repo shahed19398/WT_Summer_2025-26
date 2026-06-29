@@ -1,0 +1,166 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:#eef2f7;
+    color:#333;
+    line-height:1.6;
+}
+
+
+header{
+    background:#0d6efd;
+    color:white;
+    text-align:center;
+    padding:35px;
+}
+
+header h1{
+    margin-bottom:10px;
+    font-size:36px;
+}
+
+header p{
+    font-size:18px;
+}
+
+
+nav{
+    background:#003366;
+    text-align:center;
+    padding:15px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 18px;
+    padding:10px 18px;
+    border-radius:5px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+nav a:hover{
+    background:white;
+    color:#003366;
+}
+
+
+main{
+    width:90%;
+    max-width:900px;
+    margin:40px auto;
+}
+
+
+.service-info{
+    background:white;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+    margin-bottom:35px;
+}
+
+.service-info h2{
+    color:#0d6efd;
+    margin-bottom:15px;
+}
+
+.service-info p{
+    margin-bottom:15px;
+}
+
+.service-info ul{
+    margin-left:20px;
+}
+
+.service-info li{
+    margin-bottom:8px;
+}
+
+
+.form-container{
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.form-container h2{
+    text-align:center;
+    color:#0d6efd;
+    margin-bottom:25px;
+}
+
+label{
+    display:block;
+    margin-top:15px;
+    margin-bottom:6px;
+    font-weight:bold;
+}
+
+input,
+select,
+textarea{
+    width:100%;
+    padding:12px;
+    border:1px solid #bbb;
+    border-radius:6px;
+    font-size:15px;
+}
+
+input:focus,
+select:focus,
+textarea:focus{
+    border:1px solid #0d6efd;
+    outline:none;
+}
+
+.radio-group{
+    margin-top:10px;
+}
+
+.radio-group label{
+    display:inline-block;
+    margin-right:20px;
+    font-weight:normal;
+}
+
+.radio-group input{
+    width:auto;
+    margin-right:5px;
+}
+
+
+
+button{
+    width:100%;
+    margin-top:25px;
+    padding:12px;
+    background:#0d6efd;
+    color:white;
+    border:none;
+    border-radius:6px;
+    font-size:16px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+button:hover{
+    background:#003366;
+}
+
+
+
+footer{
+    background:#003366;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}

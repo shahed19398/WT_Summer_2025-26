@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Service Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Student Service Portal</h1>
+        <p>Submit your university service requests quickly, easily, and securely.</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <main>
+
+        <section class="service-info">
+            <h2>Our Services</h2>
+
+            <p>
+                Welcome to the Student Service Portal. This portal helps students
+                request important university services online without visiting the office.
+            </p>
+
+            <ul>
+                <li>Transcript Request</li>
+                <li>ID Card Issue</li>
+                <li>General Inquiry</li>
+                <li>Certificate Request</li>
+            </ul>
+
+        </section>
+
+        <section class="form-container">
+
+            <h2>Service Request Form</h2>
+
+            <form>
+
+                <label for="name">Student Name</label>
+                <input type="text" id="name" placeholder="Enter your name" required>
+
+                <label for="id">Student ID</label>
+                <input type="text" id="id" maxlength="10" placeholder="Enter Student ID" required>
+
+                <label for="email">Email Address</label>
+                <input type="email" id="email" placeholder="example@email.com" required>
+
+                <label for="service">Service Type</label>
+
+                <select id="service">
+                    <option>Select a Service</option>
+                    <option>Transcript Request</option>
+                    <option>ID Card Issue</option>
+                    <option>General Inquiry</option>
+                    <option>Certificate Request</option>
+                </select>
+
+                <label>Urgency Level</label>
+
+                <div class="radio-group">
+                    <label><input type="radio" name="urgency"> Low</label>
+
+                    <label><input type="radio" name="urgency"> Medium</label>
+
+                    <label><input type="radio" name="urgency"> High</label>
+                </div>
+
+                <label for="details">Additional Details</label>
+
+                <textarea id="details" rows="5"
+                    placeholder="Write your request here..."></textarea>
+
+                <button type="submit">Submit Request</button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Student Service Portal | All Rights Reserved.</p>
+    </footer>
+
+</body>
+
+</html>
